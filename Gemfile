@@ -64,3 +64,4 @@ gem 'haml-rails'
 gem 'devise'
 gem "gretel"
 gem 'kaminari'
+gem 'font-awesome-sass'
