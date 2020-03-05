@@ -1,0 +1,77 @@
+.wrapper{
+  width: 100%;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  .header{
+    background-color: #ffd3bf;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 0 300px;
+    .left-header {
+      float: left;
+      &__title {
+        color: #333;
+        font-size: 20px;
+        margin-top: 35px;
+      }
+    }
+    .right-header{
+      float: right;
+      height: 40px;
+      line-height: 40px;
+      padding: 18px 0;
+      color: gray;
+      &__button {
+        font-size: 20px;
+      }
+      &__users {
+        display: flex;
+        font-size: 14px;
+        padding-right: 5px;
+      }
+    }
+  }
+  .main{
+    display: block;
+    color: #222;
+    font-size: 14px;
+    line-height: 100%;
+    .category-ranking {
+      padding: 40px 150px;
+      &__title{
+      }
+    }
+    .guid{
+      border-bottom: 1px solid #CCC;
+    }
+
+    .category-topic{
+      padding: 40px 150px;
+      &__title{
+      }
+    }
+    .guid{
+      border-bottom: 1px solid #CCC;
+    }
+
+    .category-Foreignfilm {
+      padding: 40px 150px;
+      &__title{
+      }
+    }
+    .guid{
+      border-bottom: 1px solid #CCC;
+    }
+    
+    .category-animation {
+      padding: 40px 150px;
+      &__title{
+      }
+    }
+    .guid{
+      border-bottom: 1px solid #CCC;
+    }
+    
+  }
+}
